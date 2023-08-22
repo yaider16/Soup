@@ -49,7 +49,6 @@ public class Presentator {
 
         } while (option != 3);
     }
-
     public void isFound(Boolean found){
         if (found){
             view.showMessage("Palabra encontrada");
@@ -57,7 +56,6 @@ public class Presentator {
             view.showMessage("Palabra no encontrada");
         }
     }
-
     public void initGame() {
         int option;
 
